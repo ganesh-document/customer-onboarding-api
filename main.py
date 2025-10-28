@@ -3,5 +3,4 @@ app = FastAPI()
 
 @app.get'/'
 def root:
-    return {'message': 'Hello'
-aaaaaa
+    return {'message': 'Hello'}

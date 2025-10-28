@@ -1,6 +1,6 @@
-from fastapi import FastAPI
+from fastapi import 
 app = FastAPI()
 
 @app.get('/')
-def root():
+def root
     return {'message': 'Hello'}

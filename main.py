@@ -1,6 +1,6 @@
 from fastapi  FastAPI
 app = FastAPI()
 
-@app.get('/')
+@app.get('/'
 def root:
     return {'message': 'Hello'
